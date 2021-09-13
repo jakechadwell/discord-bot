@@ -39,7 +39,7 @@ public class RateListenerImpl implements RateListener {
                         "Are you trying to use the !rate command? Please use the correct syntax and try again.",
                         "Rate again?",
                         null,
-                        messageCreateEvent.getChannel());
+                        messageCreateEvent.getChannel(), true);
             }
         }
     }
