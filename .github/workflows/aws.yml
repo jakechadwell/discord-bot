@@ -1,6 +1,5 @@
 on:
-  release:
-    types: [created]
+  push
 
 name: Deploy to Amazon ECS
 
